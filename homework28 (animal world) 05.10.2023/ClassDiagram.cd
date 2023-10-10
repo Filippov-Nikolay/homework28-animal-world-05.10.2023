@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Africa" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAA=</HashCode>
+      <FileName>Africa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalWorld" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AnimalWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Antelope" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIAAAAAAAAAAEAAAAAAAgAAAAEAAA=</HashCode>
+      <FileName>Antelope.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Carnivore" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAAAAAAAAAAAAAAIAAAAAEAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Carnivore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Continent" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAABAIAAAAIAAAAAQAAAEAEAAAABAAQAAAAEIAA=</HashCode>
+      <FileName>Continent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herbivore" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAIABGAAAAAAQAAAAAAAAAAAAAAAgAAAQAAAEEAA=</HashCode>
+      <FileName>Herbivore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lion" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgEAAA=</HashCode>
+      <FileName>Lion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NorthAmerica" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>NorthAmerica.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wolf" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Wolf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffalo" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAgAAAEAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>Buffalo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

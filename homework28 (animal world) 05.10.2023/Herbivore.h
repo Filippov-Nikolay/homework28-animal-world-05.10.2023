@@ -1,9 +1,11 @@
 // Травоядные
 
 #pragma once
+#include "Africa.h"
+#include "NorthAmerica.h"
 #include "Continent.h"
 
-class Herbivore : public Continent {
+class Herbivore : public Africa, public NorthAmerica {
 protected:
 	char* nameHerbivore;
 	float weight;
@@ -11,9 +13,14 @@ protected:
 public:
 	void Eat();
 
+	virtual void Print() = 0;
+
 	char* GetNameHerbivore() const;
 	float GetWeight() const;
 	bool GetLife() const;
+
+
+	virtual char* GetContinent() const = 0;
 
 
 	void SetNameHerbivore(const char*);

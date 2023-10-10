@@ -2,7 +2,10 @@
 
 using namespace std;
 
-NorthAmerica::NorthAmerica(const char* c, float s, float t, float h) : 
+NorthAmerica::NorthAmerica() {
+}
+
+NorthAmerica::NorthAmerica(const char* c, float s, float t, float h) :
 	Continent(c, s, t, h) {
 }
 

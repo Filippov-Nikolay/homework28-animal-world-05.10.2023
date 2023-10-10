@@ -130,22 +130,29 @@
     <ClCompile Include="Africa.cpp" />
     <ClCompile Include="AnimalWorld.cpp" />
     <ClCompile Include="Antelope.cpp" />
+    <ClCompile Include="Buffalo.cpp" />
     <ClCompile Include="Carnivore.cpp" />
     <ClCompile Include="Continent.cpp" />
     <ClCompile Include="Herbivore.cpp" />
     <ClCompile Include="homework28 (animal world) 05.10.2023.cpp" />
     <ClCompile Include="Lion.cpp" />
     <ClCompile Include="NorthAmerica.cpp" />
+    <ClCompile Include="Wolf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Africa.h" />
     <ClInclude Include="AnimalWorld.h" />
     <ClInclude Include="Antelope.h" />
+    <ClInclude Include="Buffalo.h" />
     <ClInclude Include="Carnivore.h" />
     <ClInclude Include="Continent.h" />
     <ClInclude Include="Herbivore.h" />
     <ClInclude Include="Lion.h" />
     <ClInclude Include="NorthAmerica.h" />
+    <ClInclude Include="Wolf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,5 +12,7 @@ void Herbivore::SetNameHerbivore(const char* n) {
 	nameHerbivore = new char[strlen(n) + 1];
 	strcpy_s(nameHerbivore, strlen(n) + 1, n);
 }
+
+
 void Herbivore::SetWeight(float w) { weight = w; }
 void Herbivore::SetLife(bool l) { life = l; }

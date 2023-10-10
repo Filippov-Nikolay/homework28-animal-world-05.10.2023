@@ -1,26 +1,24 @@
-#include "Lion.h"
+#include "Wolf.h"
 #include <iostream>
 
 using namespace std;
 
-Lion::Lion(const char* n, int p, AnimalWorld* aw, Continent* c) {
+Wolf::Wolf(const char* n, int p, AnimalWorld* aw, Continent* c) {
 	nameCarnivore = new char[strlen(n) + 1];
 	strcpy_s(nameCarnivore, strlen(n) + 1, n);
 
 	power = p;
 	continent = c;
 }
-Lion::~Lion() { delete continent; }
+Wolf::~Wolf() { delete continent; }
 
-void Lion::Print() {
+void Wolf::Print() {
 	cout << "Хищник: " << nameCarnivore << endl;
 	cout << "Сила: " << power << endl;
 	cout << "Обитает в: " << continent->GetContinent();
 }
 
-void Lion::EatHerbivore(Herbivore* obj) {
-	// cout << "Continents: " << continent->GetContinent() << " - " << obj->GetContinent() << endl;
-
+void Wolf::EatHerbivore(Herbivore* obj) {
 	if (continent->GetContinent() != obj->GetContinent()) {
 		cout << "Они находятся на разных континентах!" << endl;
 		return;

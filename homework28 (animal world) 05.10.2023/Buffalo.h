@@ -2,13 +2,14 @@
 #include "Herbivore.h"
 #include "Continent.h"
 
-class Antelope: public Herbivore {
+class Buffalo : public Herbivore {
 	Continent* continent;
 public:
-	Antelope(const char*, float, Continent*);
-	~Antelope();
+	Buffalo(const char*, float, Continent*);
+	~Buffalo();
 
 	char* GetContinent() const;
 
 	void Print();
 };
+

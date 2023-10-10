@@ -1,8 +1,8 @@
-#include "Antelope.h"
+#include "Buffalo.h"
 
 using namespace std;
 
-Antelope::Antelope(const char* n, float w, Continent* c) {
+Buffalo::Buffalo(const char* n, float w, Continent* c) {
 	nameHerbivore = new char[strlen(n) + 1];
 	strcpy_s(nameHerbivore, strlen(n) + 1, n);
 
@@ -10,11 +10,12 @@ Antelope::Antelope(const char* n, float w, Continent* c) {
 	weight = w;
 	continent = c;
 }
-Antelope::~Antelope() { delete continent; }
 
-char* Antelope::GetContinent() const { return continent->GetContinent(); }
+Buffalo::~Buffalo() { delete continent; }
 
-void Antelope::Print() {
+char* Buffalo::GetContinent() const { return continent->GetContinent(); }
+
+void Buffalo::Print() {
 	cout << "Травоядное: " << nameHerbivore << endl;
 	cout << "Вес: " << weight << endl;
 	cout << "Обитает в: " << continent->GetContinent() << endl;

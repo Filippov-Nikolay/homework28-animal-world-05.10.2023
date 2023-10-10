@@ -3,13 +3,14 @@
 #include "Carnivore.h"
 #include "Continent.h"
 
-class Lion : public Carnivore {
+class Wolf : public Carnivore {
 	Continent* continent;
 public:
-	Lion(const char*, int, AnimalWorld*, Continent*);
-	~Lion();
+	Wolf(const char*, int, AnimalWorld*, Continent*);
+	~Wolf();
 
 	void Print();
 
 	virtual void EatHerbivore(Herbivore*);
 };
+
