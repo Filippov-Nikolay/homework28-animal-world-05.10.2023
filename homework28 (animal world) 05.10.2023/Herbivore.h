@@ -1,11 +1,8 @@
 // Травоядные
 
 #pragma once
-#include "Africa.h"
-#include "NorthAmerica.h"
-#include "Continent.h"
 
-class Herbivore : public Africa, public NorthAmerica {
+class Herbivore {
 protected:
 	char* nameHerbivore;
 	float weight;

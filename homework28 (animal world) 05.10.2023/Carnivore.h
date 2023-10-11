@@ -2,11 +2,8 @@
 
 #pragma once
 #include "Herbivore.h"
-#include "Africa.h"
-#include "NorthAmerica.h"
-#include "Continent.h"
 
-class Carnivore : public Africa, public NorthAmerica {
+class Carnivore {
 protected:
 	char* nameCarnivore;
 	int power;

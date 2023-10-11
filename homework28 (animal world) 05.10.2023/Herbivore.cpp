@@ -1,4 +1,7 @@
+#include <iostream>
 #include "Herbivore.h"
+
+using namespace std;
 
 void Herbivore::Eat() { weight += 10; }
 
